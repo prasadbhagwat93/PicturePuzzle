@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android1:id="@+id/hlp"
+        android1:layout_width="420dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentRight="true"
+        android1:layout_below="@+id/play"
+        android1:text="Help" 
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android1:id="@+id/play"
+     
+        android1:layout_width="420dp"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentRight="true"
+        android1:layout_alignParentTop="true"
+        android:textStyle="bold|italic"
+        android1:layout_marginTop="175dp"
+        
+        android1:text="Play" 
+        />
+
+    <Button
+        android1:id="@+id/exit"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/hlp"
+        android1:layout_alignRight="@+id/hlp"
+        android:textStyle="bold|italic"
+        android1:layout_below="@+id/hlp"
+        android1:text="Exit" />
+
+    <TextView
+        android1:id="@+id/textView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="61dp"
+        android1:text="Picture Puzzle"
+        android1:textAppearance="?android:attr/textAppearanceLarge"
+        android1:textSize="40sp"
+        android1:textStyle="bold|italic" />
+
+    <TextView
+        android1:id="@+id/textView3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/textView2"
+        android1:layout_alignBottom="@+id/textView2"
+        android1:layout_alignParentLeft="true"
+        android1:text="ACE DOMAIN"
+        android1:textAppearance="?android:attr/textAppearanceMedium"
+        android1:textStyle="bold|italic" />
+
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignRight="@+id/exit"
+        android1:text="Version 1.0"
+        android1:textAppearance="?android:attr/textAppearanceMedium"
+        android1:textStyle="bold|italic" />
+
+</RelativeLayout>
